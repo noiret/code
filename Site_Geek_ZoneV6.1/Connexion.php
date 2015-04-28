@@ -1,0 +1,21 @@
+<?php
+include 'function_base.php';
+base();
+?>
+	<div class="bandeauTitre">
+	<div class="titre">
+		Espace d'administration
+		</div>
+	</div>
+	<div class="contenu">
+		<div class="connexion">
+			Veuillez vous connecter<br/><br/>
+			Login: <input type="text" name="login"/><br/><br/>
+			Mots de passe: <input type="password" name="mdp"/><br/>
+			<input type="submit" value="valider"/>
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
