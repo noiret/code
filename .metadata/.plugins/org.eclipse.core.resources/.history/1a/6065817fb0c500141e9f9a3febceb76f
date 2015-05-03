@@ -1,0 +1,73 @@
+<?php
+include 'fonction/functionBoutique.php';
+base();
+?>
+<html>
+	<div>
+	<div class="bandeauTitre">
+	<div class="titre">
+		Espace d'administration
+		</div>
+	</div>
+	<body>
+	<div class="contenu">
+		<div class="barre_categorie_orizontal">
+			<ul class="menu_categorie">
+			
+				<li class="menu_categorie"><a class="menuCatO" href="Boutique.php">Boutique</a></li>
+				<li class="menu_categorie"><a class="menuCatO" href="Catalogue.php">Catalogue</a></li>
+				<li class="menu_categorie"><a class="menuCatO" href="Compte.php">Compte</a></li>
+				
+			</ul>
+	</div>
+	<div class="contenuBandeau">
+		<div class="textBandeau">
+		&nbsp;
+		<table>
+			<thead>
+			<tr>
+			 	<th>Identifiant</th>
+				<th>Mot de passse</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			<tr>
+			 	<td>Identifiant</td>
+				<td>Mot de passse</td>
+			</tr>
+			</tbody>
+		
+		
+		</table>
+		</div>
+	<div class="bandeauAdminGBoutique">
+	<ul>
+		<li><a class="AdminGbandeau" href="Compte.php"><span>Consulter comptes</span></a><li>
+		<li><a class="AdminGbandeau" href="CreeCompte.php"><span>Crée compte</span></a><li>
+	</ul>
+	</div>
+	</div>
+	</div>
+
+</body>
+</html>

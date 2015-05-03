@@ -1,0 +1,4 @@
+<?php
+include 'AdminG/fonction/functionBoutique.php';
+MenuVertical();
+?>

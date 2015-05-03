@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+.centrer
+{
+	text-align: center;
+}
+span
+{
+	text-decoration: underline;
+}
+
+table.tableau
+{
+	margin: auto;
+	height:400px;
+	width:500px;
+	background:whitesmoke;
+}
+
+td
+{
+	border:1px solid rgb(0,0,0);
+}
+
+td.fond_vert
+{
+	background:green;
+	border:1px solid;
+}
+td.fond_rouge
+{
+	background-color: rgb(255,0,0);
+	text-align:center;
+	border:1px solid;
+}
+td.fond_bleu
+{
+	background:blue;
+	text-align:Low;
+	border:1px solid;
+}
+
+td.cellule_droit
+{
+	text-align: right;
+}

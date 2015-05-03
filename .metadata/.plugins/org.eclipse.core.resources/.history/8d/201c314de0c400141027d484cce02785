@@ -1,0 +1,12 @@
+<?php
+function corp(){
+	echo '<div class="Menu_vertical">
+<img src="img/Logo + titre.png" width="250" height="220" c/>
+<ul class="menu">
+<li><a class="menu" href="index.php"><span>Accueil</span></a></li>
+<li><a class="menu" href="Boutique1.php?bout=Albertville"><span>Boutique</span></a></li>
+<li><a class="menu" href="Catalogue1.php"><span>Catalogue</span></a></li>
+<li><a class="menu" href="Connexion.php"><span>Connexion</span></a></li>
+</ul>
+</div>';
+}

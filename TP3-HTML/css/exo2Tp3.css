@@ -1,0 +1,11 @@
+@CHARSET "ISO-8859-1";
+div.main{
+	border:1px solid rgb(255,255,255);
+	width:904px;
+	height:504;
+	margin:auto;
+	
+}
+div.bandeau{
+	border:2px solid; rgb(0,250,250);
+}

@@ -1,0 +1,61 @@
+@CHARSET "ISO-8859-1";
+div.fondHaut
+{
+	font-family:cursive;
+	background-color:white;
+	background-image:url(http://plainecommune.cyber-base.org/static/banqueimage/diplome.jpg);
+	background-size: 70px 40px;
+	background-repeat:no-repeat;
+	border:2px solid;
+	background-position:right bottom;
+	border-radius:10px;
+	border-color:rgb(68,138,148)
+	
+}
+div.fondMilieu
+{
+	font-family:cursive;
+	background-color:white;
+	background-image:url(http://gfol1.sosinformatics.net/vignette_accueil_ws69569727.jpg);
+	background-size: 80px 65px;
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	border:2px solid;
+	border-radius:10px;
+	border-color:rgb(68,138,148)
+}
+div.fondBas
+{
+	font-family:cursive;
+	background-color:white;
+	background-image:url(http://www.bonjourdefrance.com/image/faire-connaissance-parler-francais-bdf-19.jpg);
+	background-size: 130px 95px;
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	border:2px solid;
+	border-radius:10px;
+	border-color:rgb(68,138,148)
+	
+}
+
+div.page
+{
+	background-color:rgb(204,205,206);
+	border:2px solid;
+	border-radius:10px;
+	border-color:rgb(68,138,148);
+	height:800px;
+	width:765px;
+	margin:auto;
+	
+}
+div.Soustitre
+{
+	font-family:arial;
+	text-decoration:underline;
+	color:rgb(68,162,180);
+}
+p.bandeau
+{
+
+}

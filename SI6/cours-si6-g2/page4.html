@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Insert title here</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="css/stylep4.css"/>
+</head>
+<body>
+	<div class="cadragePrincipal">
+		<header>
+			MON SITE SIO G2
+		</header>
+		<nav>
+			<a class="menu" href="page3.html">page 3</a>
+			<a class="menu" href="http://google.fr">google</a>
+		</nav>
+		<div class="page">
+			<form id="formIns" name="formIns">
+				Votre nom : <input class="cText" type="text" id="nomPers" name="nomPers" required="required" placeholder="écrire ici"/><br/>
+				Votre prénom :  <input class="cText" type="text" id="prenomPers" name="prenomPers" pattern="[A-Z][a-z]{5}"/><br/>
+				Parcours choisi : 
+				<select id="choixParc" name="choixParc">
+					<option value="SISR">Parcours SISR</option>
+					<option value="SLAM">Parcours SLAM</option>
+					<option value="RIEN" selected="selected">Jenesépa</option>
+				</select><br/>
+				Votre choix est certain : <input type="radio" id="typeChoix" name="typeChoix" value="O"/> oui <input type="radio" id="typeChoix" name="typeChoix" value="N"/> non<br/>
+				<input type="reset" id="btReset" name="btReset" value="Effacer"/> 	<input type="submit" id="btSubmit" name="btSubmit" value="Envoyer"/>
+			</form>
+		</div>	
+	</div>
+</body>
+</html>

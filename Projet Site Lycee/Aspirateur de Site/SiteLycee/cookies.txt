@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+lycee-gsh-etampes.org	TRUE	/	FALSE	1999999999	300gpBAK	R4178751111
+lycee-gsh-etampes.org	TRUE	/	FALSE	1999999999	300gp	R3396052252
+

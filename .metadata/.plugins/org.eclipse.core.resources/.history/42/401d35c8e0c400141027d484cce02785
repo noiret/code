@@ -1,0 +1,11 @@
+<?php
+function corp(){
+	echo '<html>
+	<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+	<link rel="icon" type="image/ico" href="img/LogoPage2.ico">
+	<title>Accueil Albertville</title>
+	</head>
+		<br>Hello!</br>';
+}

@@ -1,0 +1,304 @@
+/*
+
+ Lycée Geoffroy-Saint-Hilaire
+
+*/
+
+/* Mise en forme des objets de liste */
+
+ul {
+	font-family: arial;
+	font-weight: bolder;
+	color: #000099;
+	font-size: 16px;
+	background-color: white;
+	list-style: square;
+}
+
+li {
+	list-style: square;
+	left: 10px;
+}
+
+/* Mise en forme de paragraphe justifié */
+
+p.just {
+  text-align: justify;
+  padding-left: 2px;
+  padding-right: 4px;
+}
+
+/* Eléments de définition du menu en bas */
+
+span.menuhaut {
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	width: 1000px;
+}
+
+img.imgleft {
+	position: absolute;
+	left: 10px;
+}
+
+img.imgright {
+	position: absolute;
+	right: 10px;
+}
+
+/* Style des listes relatives aux différents menu du haut */
+
+ul.meng {
+	position: absolute;
+	top: 125px;
+	left: 0px;
+	height: 300px;
+	width: 125px;
+	list-style: square;
+	line-height: 150%;	
+	color: #b22222;
+	}
+	
+ul.contact {
+	position: absolute;
+	top: 510px;
+	left: 0px;
+	height: 100px;
+	width: 125px;
+	color: #b22222;	
+	}
+	
+/* Redéfinition des titres */
+	
+h1, h2, h3 {
+	font-family: arial;
+	color: #b22222;
+	text-align: center;
+	}
+
+h4{
+	font-family: arial;
+	color: #b22222;
+	font-size: 20px;
+}
+
+/* Liste d'éléments dans les différents frames */
+
+ul.describe {
+	font-family: arial;
+	font-weight: bolder;
+	color: #000099;
+	font-size: 16px;
+	background-color: white;
+
+	list-style: square;
+}
+
+/* Mise en forme des tableaux */
+
+table.tab_gsh {
+  border: 1px;
+  border-spacing: 0px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #404040;
+	border-collapse: collapse;
+}
+
+tr.tab_gsh {
+  border: 1px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #404040;	
+	
+}
+
+td.tab_gsh {
+  border: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #404040;	
+	padding: 3px;
+}
+
+/*  Style des liens dans les frames */
+
+a.lnk {
+  font-size: 12pt;
+}
+
+/* Mise en forme générale du site */
+
+body {
+	color: #000099;
+	font-family: arial;
+	font-size: 14px;
+	SCROLLBAR-FACE-COLOR: #004499;
+	SCROLLBAR-HIGHLIGHT-COLOR: #b22222;
+	SCROLLBAR-SHADOW-COLOR: #aa2222;
+	SCROLLBAR-3DLIGHT-COLOR: #aa22cc;
+	SCROLLBAR-ARROW-COLOR: #aa6699;
+	SCROLLBAR-TRACK-COLOR: #992211;
+	SCROLLBAR-DARKSHADOW-COLOR: #aa6699
+}
+
+/* Liens dans le menu de gauche */
+
+a:link, a:hover, a:visited {
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 13px;
+	background-color: white;
+	text-decoration: none;
+	color: #000099;
+}
+
+a:hover {
+	color: #b22222;
+}
+
+a.retour {
+	position: relative;
+	top: 1px;
+}
+
+/* Mise en forme des barres horizontales */
+
+hr {
+  	position: absolute;
+	  top: 100px;
+  	width: 1000px;
+	  left: 0px;
+  	height: 5;
+  	background-color: #b22222;
+}
+
+hr.bas{
+  position: absolute;
+	top: 600px;
+	}
+
+/*  Définition de la page du centre */	
+
+div.frame {
+  position: absolute;
+	margin-left: 195px;
+	overflow: auto;
+	width: 795px;
+	height: 490px;
+	top: 115px;
+}
+
+span.clic_enter {
+	margin-left: 10px;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+#centre {
+	margin-left: 210px;
+	margin-right: 210px;
+}
+
+/* Style des images près du texte à gauche*/ 
+
+img.illustration_left {
+  float: left;
+	margin: 10px;
+}
+
+img.illustration_right {
+  float: right;
+	margin: 10px;
+}
+
+/* Style de mise en valeur de l'auteur des textes */
+
+span.author {
+  font-weight: bold;
+	display: block;
+	text-align: right;
+}
+
+/*  Très gros titres */
+
+span.h1 {
+  border-style: solid;
+	border-color: #b22222;
+	border-width: 2px;
+	color: #b22222;
+	background-color: white;
+	font-family: arial;
+	font-size: 24pt;
+	font-weight: bolder;
+	padding-left: 3px;
+	margin-right: -1px;
+	margin-top: 5px;
+	display: block;
+	width: 750px;
+}
+
+span.h3 {
+  border-style: solid;
+	border-color: #b22222;
+	border-width: 2px;
+	color: #b22222;
+	background-color: white;
+	font-family: arial;
+	font-size: 14pt;
+	font-weight: bolder;
+	padding-left: 3px;
+	margin-right: -1px;
+	margin-top: 5px;
+	display: block;
+	width: 300px;
+}
+
+/* Eléments de définition du menu en bas */
+
+span.menubas {
+	position: absolute;
+	top: 580px;
+	left: 130px;
+}
+
+ul.menubas  {
+  margin-top: 0px;
+}
+
+li.menubas  {
+	margin-top: 0px;
+	list-style-type: none;
+	float: left;
+}
+
+ a.menubas {
+	margin-top: 0px;
+	width: 120px;
+	height: 20px;
+	display: block;
+	text-align: center;
+	border: 1px solid gray;
+	text-decoration: none;
+	color: #000;
+	background: #fff;
+	padding-top: 2px;
+}
+
+a:hover.menubas {
+	background: #ccc;
+	border: 1px solid gray; 
+}
+
+a:active.menubas  {
+	background: gray;
+	border: 1px solid gray; 
+	color: #fff;
+}
+
+/* définition globale des images */
+
+img {
+	border: 0px;
+}

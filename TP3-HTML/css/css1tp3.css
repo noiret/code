@@ -1,0 +1,23 @@
+@CHARSET "ISO-8859-1";
+body.main{
+	text-align:center;
+	background-color: rgb(000,000,000);
+	color: rgb(255,255,255);
+	font-family:Arial;
+	font-size:24px;
+	
+}
+hr.barre{
+	height:10px;
+	width:500px;
+	background:whitesmoke;
+}
+h2.sous-titre{
+	font-family:Arial;
+	font-size:17px;
+}
+div.textFormulaire{
+	font-size:15px;
+	text-align:left;
+	color: #ff00ff;
+}

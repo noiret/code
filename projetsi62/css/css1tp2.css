@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+div.centre
+{
+	text-align:center;
+}
+div.droite
+{
+	text-align:right;
+}
+div.gauche
+{
+	text-align:left;
+}
+div.police
+{
+	font-size:16pt;
+	font-family:Arial;
+}
+div.police2
+{
+	font-size:9pt;
+	font-family:Verdana;
+}
+div.police3
+{
+	font-family:Garamond;
+	font-size:12pt;
+	color:#0000FF;
+}
+div.tableau
+{
+	margin:auto;
+	height:400px;
+	width:500px;
+	background:whitesmoke;
+	
+}
+div.fond
+{
+	background-image:rgb(17,113,15);
+	border:1px solid;
+}
+div.entete
+{
+	border:1px solid;
+	color:
+}
+div.centre
+{
+	border:1px solid;
+	color:
+}

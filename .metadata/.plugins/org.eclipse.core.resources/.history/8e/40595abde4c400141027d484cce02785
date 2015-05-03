@@ -1,0 +1,17 @@
+<?php
+include 'fonction/functionBoutique.php';
+base();
+?>
+	<div>
+	<div class="bandeauTitre">
+	<div class="titre">
+		Espace d'administration
+		</div>
+	</div>
+	<div class="contenu">
+		
+	</div>
+	</div>
+
+</body>
+</html>

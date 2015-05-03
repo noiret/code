@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+div.titre
+{
+	text-align:center;
+	font-family:arial;
+}
+div.page
+{
+	background-color:rgb(255,255,255);
+	border:2px solid;
+	border-color:rgb(0,0,0);
+	height:800px;
+	width:700px;
+	margin:auto;
+	
+}

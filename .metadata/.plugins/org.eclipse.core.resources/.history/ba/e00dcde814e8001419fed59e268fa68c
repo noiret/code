@@ -1,0 +1,22 @@
+<?php
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>ACCUEIL</title>
+<link rel= "stylesheet" type="text/css" media="screen" href="css/stylestage.css">
+</head>
+<body>
+<div class="page">
+
+	<?php  include_once 'inc/titre.inc.php'; ?>
+	<?php  include_once 'inc/bmenu.inc.php'; ?>
+	<?php  include_once 'inc/BDD.php'; ?>
+
+	
+	&nbsp;
+	<div class="titre">
+	<br><u>Mega site:</u> spécialiste des programmes de ouf en Piachepi<br>
+	
+	&nbsp;

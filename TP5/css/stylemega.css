@@ -1,0 +1,86 @@
+div.titre
+{
+	text-align:center;
+	font-family:arial;
+}
+div.page
+{
+	background-color:rgb(255,255,255);
+	border:2px solid;
+	border-color:rgb(0,0,0);
+	height:800px;
+	width:700px;
+	margin:auto;
+	
+}
+div.menu{
+	width:700px;
+	height:22px;
+	margin:auto;
+	border:1px solid rgb(0,0,0);
+}
+a.item{
+	display:bloc;
+	width:138px;
+	height:22px;
+	border:1px solid rgb(0,0,0);
+	float:left;
+	text-align:center;
+	font-size:;
+	font-family:;
+	color:;
+}
+a.item:hover{
+	background-color:rgb(68,138,148);
+}
+div.titreS
+{
+	text-align:center;
+	font-family:arial;
+	text-decoration:underline;
+}
+td.ligne{
+	border:1px solid #332211;
+	width : 50;
+	height:50;
+}
+table{
+	border-collapse:collapse;
+	margin:auto;
+}
+td.ligne1{
+	border:1px solid cyan;
+	border-collapse:collapse;
+	background-color:cyan;
+}
+td.ligne2{
+	border:1px solid green;
+	border-collapse:collapse;
+	background-color:green;
+	}
+p.ressoure
+{
+	text-align:center;
+	font-family:arial;
+}
+td.Tableau
+{
+	border: 1px solid rgb(0,255,0);
+	color:white;
+	font-size:10pt;
+	border-color:black;
+	font-family:Verdana;
+	text-align:center;
+}
+table.FormeTab{
+	border-color:black;
+	position:absolute;
+	right:600px;
+	top:350px;
+	bottom:10px;
+	border-collapse: collapse;
+}
+h4.resultat{
+	text-align:center;
+}
+	

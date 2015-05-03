@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Intranet::WOLRDCORP</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+	<div id="main">
+		<div class="entete">
+	 		<img id="" src="img/logo_worldcorp.png" />
+		</div>
+		<div class="menu">
+			<b>menu :</b><br/><br/>
+			- Retour à <a href="index.html">l'accueil</a><br/>
+			- Voir le <a href="catalogueProduit.html">catalogue</a><br/>
+			- Saisir une <a href="commandeMain.html">commande</a><br/>
+			- Suivi <a href="clientMain.html">client</a><br/>
+		</div>
+		<div class="centre">
+			<h4 class="titre">Gestion des produits</h4>
+			<form id="frmAjoutProduit" method="post" action="addProduct.php">
+			<fieldset>
+				<legend>Nouveau produit :</legend>
+				Code Produit : <input type="text" name="txtCodeProduit" id="txtCodeProduit" maxlength="8" size="10" /><br/><br/>
+				Libellé : <input type="text" name="txtLibProduit" id="txtLibProduit" size="60" /><br/><br/>
+				Fournisseur : <input type="text" name="txtFeurProdtui" id="txtFeurProduit" size="40" /><br/><br/>
+				Conditionnement : x10 <input type="radio" name="optCondProduit" id="optCondProduit" value="10" />
+				x100 <input type="radio" name="optCondProduit" id="optCondProduit" value="100" />
+				x1000 <input type="radio" name="optCondProduit" id="optCondProduit" value="1000" /><br/><br/>	
+				Famille : 
+				<select id="lstFamProduit" name="lstFamProduit">
+					<option value="f033">Circuit intégré analogique</option>
+					<option value="f034">Circuit intégré numérique</option>
+					<option value="f067">Microprocesseur</option>
+					<option value="f068">Microcontrôleur</option>
+					<option value="f116">Transistor</option>
+					<option value="f135">Résistance</option>
+					<option value="f456">Condensateur</option>
+				</select><br/><br/>
+				<input name="brReset" type="reset" value="réinitialiser" /><input name="cmdValider" type="submit" value="valider" />
+			</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

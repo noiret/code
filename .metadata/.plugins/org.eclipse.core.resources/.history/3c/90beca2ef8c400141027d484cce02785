@@ -1,0 +1,36 @@
+<?php
+include 'fonction/functionBoutique.php';
+base();
+?>
+<html>
+	<div>
+	<div class="bandeauTitre">
+	<div class="titre">
+		Espace d'administration
+		</div>
+	</div>
+	<body>
+	<div class="contenu">
+	<div class="contenuBandeau">
+		<pre>                                         Adresse : <input class="question" type="text" id="txtNom" name="txtNom"/></pre>
+		<br/>
+		<pre>                                        Code postale : <input class="question" type="text" id="txtNom" name="txtNom"/></pre>
+		<br/>
+		<pre>                                         Ville : <input class="question" type="text" id="txtNom" name="txtNom"/></pre>
+		<br/>
+		<pre>                                         Telephonie : <input class="question" type="text" id="txtNom" name="txtNom"/></pre>
+		<br/>
+		<pre>                                         Horaires : <input class="question" type="text" id="txtNom" name="txtNom"/></pre>
+		<br/>
+	<div class="bandeauAdminGBoutique">
+	<ul>
+		<li>Insérer une boutique<li>
+		<li>Modifier une boutique<li>
+		<li>Suprimer une boutique<li>
+	</ul>
+	<div>
+	</div>
+	</div>
+
+</body>
+</html>

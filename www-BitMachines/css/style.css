@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+/* style du fond de page, de la police par défaut */
+
+body {
+  background-color: #ECEBE7;
+  font-family: verdana;
+  font-size: 9pt;
+}
+
+/* style des liens */
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #CCCCFF;
+}
+
+a:hover {
+  color: #FFFFFF;
+}
+
+/* style des différentes parties du site */
+
+/* partie principale, centrée */
+
+div#main {
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* en-tête avec le logo */
+
+div.entete {
+	margin-top: 10px;
+	width: 1024px;
+	height: 164px;
+	padding-top: 2px;
+	text-align: left;
+	border-radius: 5px;
+	border: 2px solid #4D40A4;
+	background-color: #FFFFFF;
+}
+
+/* menu avec les liens */
+
+div.menu {
+	margin-top: 2px;
+	width: 1024px;
+	height: 38px;
+	border-radius: 5px;
+	border: 2px solid #4D40A4;
+	background-image: url("../img/coulEltMenu.png");
+}
+
+div.eltMenu {
+	float: left;
+	width: 150px;
+	padding: 7px 8px 7px 8px;
+	font-size: 14pt;
+	text-align: center;
+	color: #FFFFFF;
+	cursor: default;
+}
+
+div.eltMenu:hover {
+	background-image: url("../img/coulEltMenuHover.png");
+}
+
+/* partie centrale */
+
+div.centre {
+	margin-top: 2px;
+	margin-bottom: 10px;
+	float: left;
+	width: 1014px;
+	height: 600px;
+	padding: 5px;
+	background-color: #C6D0F3;
+	border-radius: 5px;
+	border: 2px solid #4D40A4;
+}
+
+/* paragraphes de texte et titres */
+
+div.parag1 {
+	margin-left: 20px;
+	color: #283D82;
+	text-align: justify;
+	
+}
+
+.titre {
+	color: #283D82;
+}
+
+/* styles du formulaire */
+
+form {
+	color: #283D82;
+}
+

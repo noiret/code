@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+div.cadragePrincipal {
+	margin: 0px auto;
+	width: 800px;
+}
+
+header {
+	width: 800px;
+	height: 80px;
+	border: 2px dotted rgb(125,25,85);
+}
+
+nav {
+	width: 800px;
+	height: 25px;
+	border: 2px dotted rgb(125,25,85);
+	margin: 3px 0px 3px 0px;
+}
+
+div.page {
+	width: 800px;
+	height: 400px;
+	border: 2px dotted rgb(125,25,85);
+}
+
+input.cText {
+	border: 1px dashed rgb(255,201,14);
+	background-color: rgb(255,238,179);
+}
+
+a.menu {
+	display: block;
+	width: 50px;
+	float: left;
+	text-decoration: none;
+	color: rgb(0,128,192);
+	font-family: arial;
+	border : 1px solid rgb(0,128,192);
+	padding: 2px;
+	margin-right: 2px;
+}
+
+a.menu:hover {
+	background-color: rgb(157,223,255);
+}
+
+
+
+
+
+
+
+
+
+
